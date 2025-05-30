@@ -2,19 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>To-Do App</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>To-Do List</h1>
-    <div class="input-group">
-      <input type="text" id="taskInput" placeholder="Enter a task"/>
-      <button onclick="addTask()">Add</button>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Welcome to SimpleStart</h1>
+    <p>Your journey to success begins here.</p>
+    <a href="#cta" class="btn">Get Started</a>
+  </header>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h2>Why Choose Us</h2>
+    <div class="feature-box">
+      <div class="feature">
+        <h3>Fast</h3>
+        <p>Speedy performance and load times.</p>
+      </div>
+      <div class="feature">
+        <h3>Responsive</h3>
+        <p>Mobile-first, fully responsive layout.</p>
+      </div>
+      <div class="feature">
+        <h3>Free</h3>
+        <p>No cost, no catch. Just value.</p>
+      </div>
     </div>
-    <ul id="taskList"></ul>
-  </div>
-  <script src="script.js"></script>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      SimpleStart helps individuals and startups launch beautiful landing pages
+      with minimal effort using simple tools and clean design.
+    </p>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Users Say</h2>
+    <blockquote>
+      “This tool made launching our website a breeze!” — <strong>Sarah, Designer</strong>
+    </blockquote>
+    <blockquote>
+      “Easy to use, clean results. Highly recommended.” — <strong>Dev, Developer</strong>
+    </blockquote>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="cta" id="cta">
+    <h2>Ready to Get Started?</h2>
+    <a href="#" class="btn">Join Now</a>
+  </section>
+
+  <footer>
+    <p>© 2025 SimpleStart. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+
